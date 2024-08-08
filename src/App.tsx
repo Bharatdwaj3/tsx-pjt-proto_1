@@ -1,3 +1,4 @@
+import Login_Form from "./components/Login_Form"
 
 
 function App() {
@@ -5,7 +6,7 @@ function App() {
 
   return (
     <>
-      <Login_Form/>
+      <Login_Form title="Login Form"/>
     </>
   )
 }

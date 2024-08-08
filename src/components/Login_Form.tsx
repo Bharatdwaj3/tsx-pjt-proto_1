@@ -1,11 +1,15 @@
-import React from 'react'
+type Props = {
+    title:"string"
+}
 
-type Props = {}
-
-const Login_Form = (props: Props) => {
+const Login_Form = ({title}: Props) => {
   return (
     <>
-        <div></div>
+        <div className="login">
+            <h1>{title}</h1>
+        </div>
     </>
   )
 }
+
+export default Login_Form
